@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration page</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fas fa-Book"></i>DIGIPODIUM</a>
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#speciality">speciality</a>
+        <a href="#popular">popular</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>We are Digipodium</h3>
+        <p>
+          Digipodium is a platform which reaches out to its audiences to help
+          them enrich their lives in a bigger and better manner through
+          specializations, in the Fields of I.T. Training Digital Marketing
+          Corporate Events coordination.
+        </p>
+        <a href="#regist" class="btn">Let's Start</a>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <div class="container">
+        <div class="header" id="regist"><h1>Student's Registration Form</h1></div>
+      
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <span class="title">Personal Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required />
+              </div>
+
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input type="date" placeholder="Enter birth date" required />
+              </div>
+
+              <div class="input-field">
+                <label>Email</label>
+                <input type="text" placeholder="Enter your email" required />
+              </div>
+
+              <div class="input-field">
+                <label>Mobile Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter mobile number"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Gender</label>
+                <select required>
+                  <option disabled selected>Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Occupation</label>
+                <input
+                  type="text"
+                  placeholder="Enter your ccupation"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details ID">
+            <span class="title">Academic Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>10th Standard</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>10th Standard</option>
+                    <option>12th Standard</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Year Of Passing</label>
+                <input type="number" placeholder="YEAR" required />
+              </div>
+
+              <div class="input-field">
+                <label>Percentage</label>
+                <input
+                  type="number"
+                  placeholder="Percentage"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>12th Standard</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>10th Standard</option>
+                    <option>12th Standard</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Year Of Passing</label>
+                <input type="number" placeholder="YEAR" required />
+              </div>
+
+              <div class="input-field">
+                <label>Percentage</label>
+                <input
+                  type="number"
+                  placeholder="Percentage"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Graduation</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>B.Tech</option>
+                    <option>BCA</option>
+                    <option>B.Sc.</option>
+                    <option>BBA</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Branch/Fields</label>
+                <input type="number" placeholder="Branch/Fields" required />
+              </div>
+              <div class="input-field">
+                <label>Year of Passing</label>
+                <input
+                  type="number"
+                  placeholder="YEAR"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Aggregate Percentage</label>
+                <input
+                  type="number"
+                  placeholder="Percentage"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>If Backlogs(Otherwise fill: 0)</label>
+                <input
+                  type="number"
+                  placeholder="Backlogs"
+                  required
+                />
+              </div>
+              <div class="input-field" id="hidden">
+                <label>Current Year</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+              </div>
+              
+              <div class="input-field">
+                <label>SELECT</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>M.Tech</option>
+                    <option>MCA</option>
+                    <option>M.Sc.</option>
+                    <option>MBA</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Branch/Fields</label>
+                <input type="number" placeholder="Branch/Fields" required />
+              </div>
+              <div class="input-field">
+                <label>Year of Passing</label>
+                <input
+                  type="number"
+                  placeholder="YEAR"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Aggregate Percentage</label>
+                <input
+                  type="number"
+                  placeholder="Percentage"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>If Backlogs(Otherwise fill: 0)</label>
+                <input
+                  type="number"
+                  placeholder="Backlogs"
+                  required
+                />
+              </div>
+              <div class="input-field" id="hidden">
+                <label>Current Year</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+              </div>
+            </div>
+           </div>   
+
+           <div class="details address">
+                <span class="title">Address Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                        <label>Address Type</label>
+                        <input
+                        type="text"
+                        placeholder="Permanent or Temporary"
+                        required/>
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Nationality</label>
+                      <input type="text" placeholder="Enter nationality" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>State</label>
+                      <input type="text" placeholder="Enter your state" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>District</label>
+                      <input type="text" placeholder="Enter your district" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Block Number</label>
+                      <input
+                        type="number"
+                        placeholder="Enter block number"
+                        required
+                      />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Ward Number</label>
+                      <input type="number" placeholder="Enter ward number" required />
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="details family">
+                  <span class="title">Family Details</span>
+      
+                  <div class="fields">
+                    <div class="input-field">
+                      <label>Father Name</label>
+                      <input type="text" placeholder="Enter father name" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Mother Name</label>
+                      <input type="text" placeholder="Enter mother name" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Guardian Name</label>
+                      <input
+                        type="text"
+                        placeholder="Enter grandfther name"
+                        required
+                      />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Father's Contact No.</label>
+                      <input type="text" placeholder="Enter spouse name" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Mother's Contact No.</label>
+                      <input type="number" placeholder="Father in law name" required />
+                    </div>
+      
+                    <div class="input-field">
+                      <label>Guardian's Contact No.</label>
+                      <input type="text" placeholder="Mother in law name" required />
+                    </div>
+                  </div>
+                </div>
+                <div class="btn2">
+                <button class="sumbit">
+                    <span class="btnText">Submit</span>
+                    <i class="uil uil-navigator"></i>
+                  </button>
+                </div>  
+        </div>
+      </form>
+    </div>
+
+    
+  </body>
+</html>
