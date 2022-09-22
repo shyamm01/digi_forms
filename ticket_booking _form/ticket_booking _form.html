@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticket_booking _form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading">ticket booking form</h1>
+    </header>
+   
+    <section class="container">
+        <form action="" class="ticket">
+            <div class="fields">
+                <div class="field-items">
+                    <label for="name">Enter Your Full Name *</label>
+                    <div class="f-name">
+                        <input type="text" id="name" placeholder="First Name" required>
+                        <input type="text" id="name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="field-items">
+                    <label for="email">Enter Your Email *</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="field-items">
+                    <label for="email">Phone *</label>
+                    <input type="number" id="email" placeholder="mobile number" minlength="10" maxlength="10" required>
+                </div>
+                <div class="field-items">
+                    <label for="email">Which movie would you like to watch? *</label>
+                    <select name="" id="" required>
+                        <option value="" disabled Selected>Select Your favorite Movie</option>
+                        <option value="">Brahmastra 3D</option>
+                        <option value="">Brahmastra 2D</option>
+                        <option value="">chup 2D</option>
+                        <option value="">the women king</option>
+                        <option value="">dhokha round d corner</option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="field-items">
+                    <label for="ticket">Number of tickets *</label>
+                    <input type="number" id="ticket" placeholder="enter Number of tickets" minlength="2" maxlength="2" required>
+                </div>
+                
+                <div class="field-items">
+                    <label for="email">Screening you'd like to attend *</label>
+                    <div class="date-time">
+                        <input type="date" name="" id="" required>
+                        <select name="" id="" required>
+                            <option value="" disabled Selected>Please Select </option>
+                            <option value="">08:30 AM - 11:30 AM</option>
+                            <option value="">12:30 PM - 03:30 PM</option>
+                            <option value="">04:30 PM - 07:30 PM</option>
+                            <option value="">08:30 PM - 11:30 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit">book now</button>
+                </div>    
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>

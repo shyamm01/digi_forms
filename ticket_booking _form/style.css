@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+}
+
+
+body{
+    background-color: #51E1ED;
+}
+
+.header{
+    background-color: #fff;
+    padding: auto;
+    width: 80vw;
+    height: 10vh;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 18px 5px #34a8b2;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .heading{
+    height: 100%;
+    transition: 0.5s;
+    box-sizing: border-box;
+    width: 40vw;
+    text-align: center;
+}
+
+h1:hover{
+    text-shadow: 0 0 10px #2e4041,
+                 0 0 20px #092d31;
+                 
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+.container{
+    
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    background-color: #fff;
+    width: 80vw;
+    height: 120vh;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow: 0px 0px 18px 5px #34a8b2;
+    position: relative;
+    
+}
+
+form .fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+form .fields .field-items{
+    background-color: #fff;
+    margin: 20px 10px;
+    width: 45%;
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 5px #34a8b2;
+}
+
+form .fields .field-items .f-name{
+    display: flex;
+    width: 45%;
+}
+
+
+
+form label{
+    padding: 10px;
+    
+}
+form input{
+    margin:10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+form select{
+    margin:10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+form .fields .field-items .date-time{
+    display: flex;
+
+}
+
+button{
+    padding:.8rem 3rem;
+    background-color: #fff;
+    color:blue;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .8rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 18px 5px #34a8b2;
+    border: none;
+  }
+  button::before{
+    content: '';
+    position: absolute;
+    top:0; right: 0;
+    width:0%;
+    height:100%;
+    background: linear-gradient(to right,#ff107f, #ffad06, #ff107f);
+    transition: .3s linear;
+    z-index: -1;
+  }
+  
+  button:hover::before{
+    width:100%;
+    left: 0;
+  }
+  
+  button:hover{
+    color:black;
+    font-weight: 1000;
+    
+  }
+  
+
+@media(max-width:1050px){
+    form .fields .field-items .f-name{
+        flex-direction: row;
+    }
+
+    form .fields .field-items .f-name input{
+        max-width: 100px;
+    }
+    
+}
